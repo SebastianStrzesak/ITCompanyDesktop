@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{435572FA-D2A2-48CA-B905-4A7899337063}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MVVMFirma</RootNamespace>
+    <AssemblyName>MVVMFirma</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helper\BaseCommand.cs" />
+    <Compile Include="ViewModels\AllClientsViewModel.cs" />
+    <Compile Include="ViewModels\AllDepartmentsViewModel.cs" />
+    <Compile Include="ViewModels\AllEquipmentViewModel.cs" />
+    <Compile Include="ViewModels\AllInvoicesViewModel.cs" />
+    <Compile Include="ViewModels\AllLeavesViewModel.cs" />
+    <Compile Include="ViewModels\AllPerformanceReviewsViewModel.cs" />
+    <Compile Include="ViewModels\AllProjectBudgetsViewModel.cs" />
+    <Compile Include="ViewModels\AllProjectsViewModel.cs" />
+    <Compile Include="ViewModels\AllSalariesViewModel.cs" />
+    <Compile Include="ViewModels\AllSoftwaresViewModel.cs" />
+    <Compile Include="ViewModels\AllTaskAssignmentsViewModel.cs" />
+    <Compile Include="ViewModels\AllTasksViewModel.cs" />
+    <Compile Include="ViewModels\AllTimeSheetsViewModel.cs" />
+    <Compile Include="ViewModels\AllTrainingsViewModel.cs" />
+    <Compile Include="ViewModels\BaseViewModel.cs" />
+    <Compile Include="ViewModels\CommandViewModel.cs" />
+    <Compile Include="ViewModels\MainWindowViewModel.cs" />
+    <Compile Include="ViewModels\NewClientViewModel.cs" />
+    <Compile Include="ViewModels\NewDepartmentViewModel.cs" />
+    <Compile Include="ViewModels\NewEmployeeViewModel.cs" />
+    <Compile Include="ViewModels\NewEquipmentViewModel.cs" />
+    <Compile Include="ViewModels\NewInvoiceViewModel.cs" />
+    <Compile Include="ViewModels\NewLeaveViewModel.cs" />
+    <Compile Include="ViewModels\NewPerformanceReviewViewModel.cs" />
+    <Compile Include="ViewModels\NewProjectBudgetViewModel.cs" />
+    <Compile Include="ViewModels\NewProjectViewModel.cs" />
+    <Compile Include="ViewModels\NewSalarieViewModel.cs" />
+    <Compile Include="ViewModels\NewSoftwareViewModel.cs" />
+    <Compile Include="ViewModels\NewTaskAssignmentViewModel.cs" />
+    <Compile Include="ViewModels\NewTaskViewModel.cs" />
+    <Compile Include="ViewModels\NewTimesheetViewModel.cs" />
+    <Compile Include="ViewModels\NewTrainingViewModel.cs" />
+    <Compile Include="ViewModels\WorkspaceViewModel.cs" />
+    <Compile Include="ViewModels\AllEmployeesViewModel.cs" />
+    <Compile Include="Views\AllClientsViews.xaml.cs">
+      <DependentUpon>AllClientsViews.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AllDepartmentsView.xaml.cs">
+      <DependentUpon>AllDepartmentsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AllEmployeesView.xaml.cs">
+      <DependentUpon>AllEmployeesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AllEquipmentView.xaml.cs">
+      <DependentUpon>AllEquipmentView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AllInvoicesView.xaml.cs">
+      <DependentUpon>AllInvoicesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AllLeavesView.xaml.cs">
+      <DependentUpon>AllLeavesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AllPerformanceReviewsView.xaml.cs">
+      <DependentUpon>AllPerformanceReviewsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AllProjectBudgetsViev.xaml.cs">
+      <DependentUpon>AllProjectBudgetsViev.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AllProjectsView.xaml.cs">
+      <DependentUpon>AllProjectsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AllSalariesView.xaml.cs">
+      <DependentUpon>AllSalariesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AllTaskAssignmentsView.xaml.cs">
+      <DependentUpon>AllTaskAssignmentsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AllTasksView.xaml.cs">
+      <DependentUpon>AllTasksView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AllTimesheetsView.xaml.cs">
+      <DependentUpon>AllTimesheetsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AllTrainingsView.xaml.cs">
+      <DependentUpon>AllTrainingsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewClientViev.xaml.cs">
+      <DependentUpon>NewClientViev.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewDepartmentView.xaml.cs">
+      <DependentUpon>NewDepartmentView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewEquipmentView.xaml.cs">
+      <DependentUpon>NewEquipmentView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewInvoicesView.xaml.cs">
+      <DependentUpon>NewInvoicesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewLeaveView.xaml.cs">
+      <DependentUpon>NewLeaveView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewPerformanceReviewView.xaml.cs">
+      <DependentUpon>NewPerformanceReviewView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewProjectBudgetView.xaml.cs">
+      <DependentUpon>NewProjectBudgetView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewProjectView.xaml.cs">
+      <DependentUpon>NewProjectView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewSalarieView.xaml.cs">
+      <DependentUpon>NewSalarieView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewSoftwareView.xaml.cs">
+      <DependentUpon>NewSoftwareView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewEmployeeView.xaml.cs">
+      <DependentUpon>NewEmployeeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AllSoftwaresView.xaml.cs">
+      <DependentUpon>AllSoftwaresView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewTaskAssignmentView.xaml.cs">
+      <DependentUpon>NewTaskAssignmentView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewTaskViev.xaml.cs">
+      <DependentUpon>NewTaskViev.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewTimesheetView.xaml.cs">
+      <DependentUpon>NewTimesheetView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewTrainingView.xaml.cs">
+      <DependentUpon>NewTrainingView.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Views\AllClientsViews.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AllDepartmentsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AllEmployeesView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AllEquipmentView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AllInvoicesView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AllLeavesView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AllPerformanceReviewsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AllProjectBudgetsViev.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AllProjectsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AllSalariesView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AllTaskAssignmentsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AllTasksView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AllTimesheetsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AllTrainingsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MainWindowResources.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NewClientViev.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NewDepartmentView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NewEquipmentView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NewInvoicesView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NewLeaveView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NewPerformanceReviewView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NewProjectBudgetView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NewProjectView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NewSalarieView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NewSoftwareView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NewEmployeeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AllSoftwaresView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NewTaskAssignmentView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NewTaskViev.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NewTimesheetView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NewTrainingView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
