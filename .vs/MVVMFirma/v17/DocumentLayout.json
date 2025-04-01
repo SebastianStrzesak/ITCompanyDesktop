@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia I\\MVVMFirma\\",
+  "WorkspaceRootPath": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia II\\MVVMFirma\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|c:\\users\\sebastian\\desktop\\ak projekt\\cwiczenia i\\mvvmfirma\\mvvmfirma\\views\\mainwindowresources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|solutionrelative:mvvmfirma\\views\\mainwindowresources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|c:\\users\\sebastian\\desktop\\ak projekt\\cwiczenia ii\\mvvmfirma\\mvvmfirma\\views\\allviewbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|solutionrelative:mvvmfirma\\views\\allviewbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia I\\MVVMFirma\\mvvmfirma\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|solutionrelative:mvvmfirma\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia II\\MVVMFirma\\mvvmfirma\\themes\\generic.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|solutionrelative:mvvmfirma\\themes\\generic.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindowResources.xaml",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia I\\MVVMFirma\\MVVMFirma\\Views\\MainWindowResources.xaml",
-              "RelativeDocumentMoniker": "MVVMFirma\\Views\\MainWindowResources.xaml",
-              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia I\\MVVMFirma\\MVVMFirma\\Views\\MainWindowResources.xaml",
-              "RelativeToolTip": "MVVMFirma\\Views\\MainWindowResources.xaml",
+              "DocumentIndex": 1,
+              "Title": "Generic.xaml",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia II\\MVVMFirma\\MVVMFirma\\Themes\\Generic.xaml",
+              "RelativeDocumentMoniker": "MVVMFirma\\Themes\\Generic.xaml",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia II\\MVVMFirma\\MVVMFirma\\Themes\\Generic.xaml",
+              "RelativeToolTip": "MVVMFirma\\Themes\\Generic.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-25T22:01:10.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T18:03:15.223Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia I\\MVVMFirma\\MVVMFirma\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeDocumentMoniker": "MVVMFirma\\ViewModels\\MainWindowViewModel.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia I\\MVVMFirma\\MVVMFirma\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeToolTip": "MVVMFirma\\ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAAAIwAAABDAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AllViewBase.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia II\\MVVMFirma\\MVVMFirma\\Views\\AllViewBase.cs",
+              "RelativeDocumentMoniker": "MVVMFirma\\Views\\AllViewBase.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia II\\MVVMFirma\\MVVMFirma\\Views\\AllViewBase.cs",
+              "RelativeToolTip": "MVVMFirma\\Views\\AllViewBase.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T21:40:13.164Z"
+              "WhenOpened": "2024-11-27T17:52:21.041Z",
+              "EditorCaption": ""
             }
           ]
         }

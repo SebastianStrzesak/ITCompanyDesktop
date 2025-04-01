@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9ab7605de7cf4c6a846074fad8cd2801" Name="Diagram1" ZoomLevel="45">
+        <EntityTypeShape EntityType="ITCompanyModel.Clients" Width="1.5" PointX="16" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITCompanyModel.Departments" Width="1.5" PointX="2.5" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITCompanyModel.Employees" Width="1.5" PointX="9" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITCompanyModel.Equipment" Width="1.5" PointX="4.625" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITCompanyModel.Invoices" Width="1.5" PointX="18.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITCompanyModel.Leaves" Width="1.5" PointX="4.375" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITCompanyModel.PerformanceReviews" Width="1.5" PointX="2.625" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITCompanyModel.ProjectBudget" Width="1.5" PointX="18.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITCompanyModel.Projects" Width="1.5" PointX="15.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITCompanyModel.Salaries" Width="1.5" PointX="10.5" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITCompanyModel.Software" Width="1.5" PointX="5" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITCompanyModel.sysdiagrams" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITCompanyModel.TaskAssignments" Width="1.5" PointX="13.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITCompanyModel.Tasks" Width="1.5" PointX="11.375" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITCompanyModel.Timesheets" Width="1.5" PointX="13.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITCompanyModel.Trainings" Width="1.5" PointX="7.75" PointY="10.125" IsExpanded="true" />
+        <AssociationConnector Association="ITCompanyModel.FK_Invoices_Clients" ManuallyRouted="false" />
+        <AssociationConnector Association="ITCompanyModel.FK_Projects_Clients" ManuallyRouted="false" />
+        <AssociationConnector Association="ITCompanyModel.FK_Departments_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="ITCompanyModel.FK_Employees_Departments" ManuallyRouted="false" />
+        <AssociationConnector Association="ITCompanyModel.FK_Equipment_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="ITCompanyModel.FK_Leaves_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="ITCompanyModel.FK_PerformanceReviews_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="ITCompanyModel.FK_Projects_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="ITCompanyModel.FK_Salaries_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="ITCompanyModel.FK_Software_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="ITCompanyModel.FK_TaskAssignments_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="ITCompanyModel.FK_Tasks_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="ITCompanyModel.FK_Timesheets_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="ITCompanyModel.FK_Trainings_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="ITCompanyModel.FK_ProjectBudget_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="ITCompanyModel.FK_Tasks_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="ITCompanyModel.FK_TaskAssignments_Tasks" ManuallyRouted="false" />
+        <AssociationConnector Association="ITCompanyModel.FK_Timesheets_Tasks" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

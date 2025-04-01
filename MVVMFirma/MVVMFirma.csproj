@@ -39,8 +39,17 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -63,6 +72,69 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Helper\BaseCommand.cs" />
+    <Compile Include="Models\Entities\Clients.cs">
+      <DependentUpon>ModelCompanyIT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entities\Departments.cs">
+      <DependentUpon>ModelCompanyIT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entities\Employees.cs">
+      <DependentUpon>ModelCompanyIT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entities\Equipment.cs">
+      <DependentUpon>ModelCompanyIT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entities\Invoices.cs">
+      <DependentUpon>ModelCompanyIT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entities\Leaves.cs">
+      <DependentUpon>ModelCompanyIT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entities\ModelCompanyIT.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelCompanyIT.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entities\ModelCompanyIT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelCompanyIT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entities\ModelCompanyIT.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelCompanyIT.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entities\PerformanceReviews.cs">
+      <DependentUpon>ModelCompanyIT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entities\ProjectBudget.cs">
+      <DependentUpon>ModelCompanyIT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entities\Projects.cs">
+      <DependentUpon>ModelCompanyIT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entities\Salaries.cs">
+      <DependentUpon>ModelCompanyIT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entities\Software.cs">
+      <DependentUpon>ModelCompanyIT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entities\sysdiagrams.cs">
+      <DependentUpon>ModelCompanyIT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entities\TaskAssignments.cs">
+      <DependentUpon>ModelCompanyIT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entities\Tasks.cs">
+      <DependentUpon>ModelCompanyIT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entities\Timesheets.cs">
+      <DependentUpon>ModelCompanyIT.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Entities\Trainings.cs">
+      <DependentUpon>ModelCompanyIT.tt</DependentUpon>
+    </Compile>
     <Compile Include="ViewModels\AllClientsViewModel.cs" />
     <Compile Include="ViewModels\AllDepartmentsViewModel.cs" />
     <Compile Include="ViewModels\AllEquipmentViewModel.cs" />
@@ -139,6 +211,7 @@
     <Compile Include="Views\AllTrainingsView.xaml.cs">
       <DependentUpon>AllTrainingsView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\AllViewBase.cs" />
     <Compile Include="Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
@@ -210,6 +283,14 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="app.config" />
+    <EntityDeploy Include="Models\Entities\ModelCompanyIT.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModelCompanyIT.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Models\Entities\ModelCompanyIT.edmx.diagram">
+      <DependentUpon>ModelCompanyIT.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -217,6 +298,10 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Views\AllClientsViews.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -346,8 +431,21 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Models\" />
+    <Content Include="Models\Entities\ModelCompanyIT.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ModelCompanyIT.Context.cs</LastGenOutput>
+      <DependentUpon>ModelCompanyIT.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\Entities\ModelCompanyIT.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelCompanyIT.edmx</DependentUpon>
+      <LastGenOutput>ModelCompanyIT.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
