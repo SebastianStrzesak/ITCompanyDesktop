@@ -1,50 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\",
+  "WorkspaceRootPath": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia IV\\MVVMFirma\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|c:\\users\\sebastian\\desktop\\ak projekt\\cwiczenia iii\\mvvmfirma\\mvvmfirma\\views\\alltrainingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|solutionrelative:mvvmfirma\\views\\alltrainingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|c:\\users\\sebastian\\desktop\\ak projekt\\cwiczenia iv\\mvvmfirma\\mvvmfirma\\views\\allclientsviews.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|solutionrelative:mvvmfirma\\views\\allclientsviews.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\mvvmfirma\\views\\alltimesheetsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|solutionrelative:mvvmfirma\\views\\alltimesheetsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\mvvmfirma\\views\\alltasksview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|solutionrelative:mvvmfirma\\views\\alltasksview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\mvvmfirma\\views\\alltaskassignmentsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|solutionrelative:mvvmfirma\\views\\alltaskassignmentsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\mvvmfirma\\views\\allsoftwaresview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|solutionrelative:mvvmfirma\\views\\allsoftwaresview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\mvvmfirma\\views\\allsalariesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|solutionrelative:mvvmfirma\\views\\allsalariesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\mvvmfirma\\views\\allprojectsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|solutionrelative:mvvmfirma\\views\\allprojectsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\mvvmfirma\\views\\allperformancereviewsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|solutionrelative:mvvmfirma\\views\\allperformancereviewsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\mvvmfirma\\views\\allprojectbudgetsviev.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|solutionrelative:mvvmfirma\\views\\allprojectbudgetsviev.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\mvvmfirma\\views\\allleavesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|solutionrelative:mvvmfirma\\views\\allleavesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\mvvmfirma\\views\\allinvoicesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|solutionrelative:mvvmfirma\\views\\allinvoicesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|c:\\users\\sebastian\\desktop\\ak projekt\\cwiczenia iv\\mvvmfirma\\mvvmfirma\\viewmodels\\allclientsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{435572FA-D2A2-48CA-B905-4A7899337063}|MVVMFirma\\MVVMFirma.csproj|solutionrelative:mvvmfirma\\viewmodels\\allclientsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,124 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AllTrainingsView.xaml",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\MVVMFirma\\Views\\AllTrainingsView.xaml",
-              "RelativeDocumentMoniker": "MVVMFirma\\Views\\AllTrainingsView.xaml",
-              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\MVVMFirma\\Views\\AllTrainingsView.xaml",
-              "RelativeToolTip": "MVVMFirma\\Views\\AllTrainingsView.xaml",
+              "Title": "AllClientsViews.xaml",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia IV\\MVVMFirma\\MVVMFirma\\Views\\AllClientsViews.xaml",
+              "RelativeDocumentMoniker": "MVVMFirma\\Views\\AllClientsViews.xaml",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia IV\\MVVMFirma\\MVVMFirma\\Views\\AllClientsViews.xaml",
+              "RelativeToolTip": "MVVMFirma\\Views\\AllClientsViews.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-27T21:15:10.529Z",
+              "WhenOpened": "2024-11-27T21:46:22.536Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AllTimesheetsView.xaml",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\MVVMFirma\\Views\\AllTimesheetsView.xaml",
-              "RelativeDocumentMoniker": "MVVMFirma\\Views\\AllTimesheetsView.xaml",
-              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\MVVMFirma\\Views\\AllTimesheetsView.xaml",
-              "RelativeToolTip": "MVVMFirma\\Views\\AllTimesheetsView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-27T21:14:14.311Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AllTasksView.xaml",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\MVVMFirma\\Views\\AllTasksView.xaml",
-              "RelativeDocumentMoniker": "MVVMFirma\\Views\\AllTasksView.xaml",
-              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\MVVMFirma\\Views\\AllTasksView.xaml",
-              "RelativeToolTip": "MVVMFirma\\Views\\AllTasksView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-27T21:13:11.094Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AllTaskAssignmentsView.xaml",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\MVVMFirma\\Views\\AllTaskAssignmentsView.xaml",
-              "RelativeDocumentMoniker": "MVVMFirma\\Views\\AllTaskAssignmentsView.xaml",
-              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\MVVMFirma\\Views\\AllTaskAssignmentsView.xaml",
-              "RelativeToolTip": "MVVMFirma\\Views\\AllTaskAssignmentsView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-27T21:11:52.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AllSoftwaresView.xaml",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\MVVMFirma\\Views\\AllSoftwaresView.xaml",
-              "RelativeDocumentMoniker": "MVVMFirma\\Views\\AllSoftwaresView.xaml",
-              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\MVVMFirma\\Views\\AllSoftwaresView.xaml",
-              "RelativeToolTip": "MVVMFirma\\Views\\AllSoftwaresView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-27T21:11:47.219Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AllSalariesView.xaml",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\MVVMFirma\\Views\\AllSalariesView.xaml",
-              "RelativeDocumentMoniker": "MVVMFirma\\Views\\AllSalariesView.xaml",
-              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\MVVMFirma\\Views\\AllSalariesView.xaml",
-              "RelativeToolTip": "MVVMFirma\\Views\\AllSalariesView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-27T21:10:38.136Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AllProjectsView.xaml",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\MVVMFirma\\Views\\AllProjectsView.xaml",
-              "RelativeDocumentMoniker": "MVVMFirma\\Views\\AllProjectsView.xaml",
-              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\MVVMFirma\\Views\\AllProjectsView.xaml",
-              "RelativeToolTip": "MVVMFirma\\Views\\AllProjectsView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-27T21:09:25.252Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AllProjectBudgetsViev.xaml",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\MVVMFirma\\Views\\AllProjectBudgetsViev.xaml",
-              "RelativeDocumentMoniker": "MVVMFirma\\Views\\AllProjectBudgetsViev.xaml",
-              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\MVVMFirma\\Views\\AllProjectBudgetsViev.xaml",
-              "RelativeToolTip": "MVVMFirma\\Views\\AllProjectBudgetsViev.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-27T21:08:11.256Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AllPerformanceReviewsView.xaml",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\MVVMFirma\\Views\\AllPerformanceReviewsView.xaml",
-              "RelativeDocumentMoniker": "MVVMFirma\\Views\\AllPerformanceReviewsView.xaml",
-              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\MVVMFirma\\Views\\AllPerformanceReviewsView.xaml",
-              "RelativeToolTip": "MVVMFirma\\Views\\AllPerformanceReviewsView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-27T21:07:19.635Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AllLeavesView.xaml",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\MVVMFirma\\Views\\AllLeavesView.xaml",
-              "RelativeDocumentMoniker": "MVVMFirma\\Views\\AllLeavesView.xaml",
-              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\MVVMFirma\\Views\\AllLeavesView.xaml",
-              "RelativeToolTip": "MVVMFirma\\Views\\AllLeavesView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-27T21:05:00.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AllInvoicesView.xaml",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\MVVMFirma\\Views\\AllInvoicesView.xaml",
-              "RelativeDocumentMoniker": "MVVMFirma\\Views\\AllInvoicesView.xaml",
-              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia III\\MVVMFirma\\MVVMFirma\\Views\\AllInvoicesView.xaml",
-              "RelativeToolTip": "MVVMFirma\\Views\\AllInvoicesView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-27T21:04:49.844Z"
+              "Title": "AllClientsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia IV\\MVVMFirma\\MVVMFirma\\ViewModels\\AllClientsViewModel.cs",
+              "RelativeDocumentMoniker": "MVVMFirma\\ViewModels\\AllClientsViewModel.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Desktop\\AK Projekt\\Cwiczenia IV\\MVVMFirma\\MVVMFirma\\ViewModels\\AllClientsViewModel.cs",
+              "RelativeToolTip": "MVVMFirma\\ViewModels\\AllClientsViewModel.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwC8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T21:27:22.563Z",
+              "EditorCaption": ""
             }
           ]
         }
