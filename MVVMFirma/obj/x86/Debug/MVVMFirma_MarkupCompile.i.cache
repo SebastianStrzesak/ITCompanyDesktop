@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Sebastian\Desktop\AK Projekt\Cwiczenia II\MVVMFirma\MVVMFirma\obj\x86\Debug\
+C:\Users\Sebastian\Desktop\AK Projekt\Cwiczenia III\MVVMFirma\MVVMFirma\obj\x86\Debug\
 MVVMFirma
 none
 false
 DEBUG;TRACE
-C:\Users\Sebastian\Desktop\AK Projekt\Cwiczenia II\MVVMFirma\MVVMFirma\App.xaml
+C:\Users\Sebastian\Desktop\AK Projekt\Cwiczenia III\MVVMFirma\MVVMFirma\App.xaml
 33-339275206
 2-83430083
 91531488034
-17-1634049882
+17-1163877828
 Themes\Generic.xaml;Views\AllClientsViews.xaml;Views\AllDepartmentsView.xaml;Views\AllEmployeesView.xaml;Views\AllEquipmentView.xaml;Views\AllInvoicesView.xaml;Views\AllLeavesView.xaml;Views\AllPerformanceReviewsView.xaml;Views\AllProjectBudgetsViev.xaml;Views\AllProjectsView.xaml;Views\AllSalariesView.xaml;Views\AllTaskAssignmentsView.xaml;Views\AllTasksView.xaml;Views\AllTimesheetsView.xaml;Views\AllTrainingsView.xaml;Views\MainWindow.xaml;Views\MainWindowResources.xaml;Views\NewClientViev.xaml;Views\NewDepartmentView.xaml;Views\NewEquipmentView.xaml;Views\NewInvoicesView.xaml;Views\NewLeaveView.xaml;Views\NewPerformanceReviewView.xaml;Views\NewProjectBudgetView.xaml;Views\NewProjectView.xaml;Views\NewSalarieView.xaml;Views\NewSoftwareView.xaml;Views\NewEmployeeView.xaml;Views\AllSoftwaresView.xaml;Views\NewTaskAssignmentView.xaml;Views\NewTaskViev.xaml;Views\NewTimesheetView.xaml;Views\NewTrainingView.xaml;
 
 True

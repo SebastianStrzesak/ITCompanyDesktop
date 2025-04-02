@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="MVVMFirma.Views.AllProjectsView"
+﻿<local:AllViewBase x:Class="MVVMFirma.Views.AllProjectsView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,7 +6,17 @@
              xmlns:local="clr-namespace:MVVMFirma.Views"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-        <Label>Lista Projektów</Label>
+    <Grid Background="White">
+        <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding List}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ProjectID"/>
+                <DataGridTextColumn Header="ProjectName"/>
+                <DataGridTextColumn Header="ClientID"/>
+                <DataGridTextColumn Header="StartDate"/>
+                <DataGridTextColumn Header="EndDate"/>
+                <DataGridTextColumn Header="Budget"/>
+                <DataGridTextColumn Header="ProjectManagerID"/>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
-</UserControl>
+</local:AllViewBase>

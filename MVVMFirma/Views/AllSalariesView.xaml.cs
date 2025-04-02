@@ -18,7 +18,7 @@ namespace MVVMFirma.Views
     /// <summary>
     /// Interaction logic for AllSalariesView.xaml
     /// </summary>
-    public partial class AllSalariesView : UserControl
+    public partial class AllSalariesView : AllViewBase
     {
         public AllSalariesView()
         {

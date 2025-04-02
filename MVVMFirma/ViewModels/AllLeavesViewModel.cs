@@ -8,9 +8,10 @@ namespace MVVMFirma.ViewModels
 {
     public class AllLeavesViewModel : WorkspaceViewModel
     {
+
         public AllLeavesViewModel()
         {
-            base.DisplayName = "Softwares";
+            base.DisplayName = "Leaves";
         }
     }
 }

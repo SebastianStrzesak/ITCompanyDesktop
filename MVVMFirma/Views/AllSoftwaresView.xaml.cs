@@ -17,7 +17,7 @@ namespace MVVMFirma.Views
     /// <summary>
     /// Interaction logic for WszystkieTowaryView.xaml
     /// </summary>
-    public partial class AllSoftwaresView : UserControl
+    public partial class AllSoftwaresView : AllViewBase
     {
         public AllSoftwaresView()
         {

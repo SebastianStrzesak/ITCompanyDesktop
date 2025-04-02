@@ -51,4 +51,4 @@ namespace MVVMFirma.Views
             DefaultStyleKeyProperty.OverrideMetadata(typeof(AllViewBase), new FrameworkPropertyMetadata(typeof(AllViewBase)));
         }
     }
-}
+} 

@@ -8,10 +8,23 @@ namespace MVVMFirma.ViewModels
 {
     public class AllDepartmentsViewModel : WorkspaceViewModel
     {
+        #region Fields
+
+        #endregion
+        #region Properties
+
+        #endregion
+
+        #region Constructor
         public AllDepartmentsViewModel()
         {
             base.DisplayName = "Departments";
 
         }
+        #endregion
+        #region Helpers
+
+        #endregion
+
     }
 }

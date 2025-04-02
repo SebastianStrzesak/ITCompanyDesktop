@@ -18,7 +18,7 @@ namespace MVVMFirma.Views
     /// <summary>
     /// Interaction logic for AllPerformanceReviewsView.xaml
     /// </summary>
-    public partial class AllPerformanceReviewsView : UserControl
+    public partial class AllPerformanceReviewsView : AllViewBase
     {
         public AllPerformanceReviewsView()
         {

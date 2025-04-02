@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="MVVMFirma.Views.AllEquipmentView"
+﻿<local:AllViewBase x:Class="MVVMFirma.Views.AllEquipmentView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -7,6 +7,15 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid Background="White">
-        <Label>To widok wszystkich przedmiotów</Label>
+        <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding List}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="EquipmentID"/>
+                <DataGridTextColumn Header="EquipmentName"/>
+                <DataGridTextColumn Header="SerialNumber"/>
+                <DataGridTextColumn Header="PurchaseDate"/>
+                <DataGridTextColumn Header="WarrantyExpiration"/>
+                <DataGridTextColumn Header="AssignedTo"/>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
-</UserControl>
+</local:AllViewBase>

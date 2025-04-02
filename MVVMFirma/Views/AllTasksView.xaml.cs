@@ -18,7 +18,7 @@ namespace MVVMFirma.Views
     /// <summary>
     /// Interaction logic for AllTasksView.xaml
     /// </summary>
-    public partial class AllTasksView : UserControl
+    public partial class AllTasksView : AllViewBase
     {
         public AllTasksView()
         {

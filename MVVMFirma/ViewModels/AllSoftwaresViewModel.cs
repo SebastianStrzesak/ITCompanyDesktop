@@ -6,11 +6,24 @@ using System.Threading.Tasks;
 
 namespace MVVMFirma.ViewModels
 {
-    public class AllSoftwaresViewModel:WorkspaceViewModel
+    #region Fields
+
+    #endregion
+    #region Properties
+
+    #endregion
+
+    #region Constructor
+    public class AllSoftwaresViewModel : WorkspaceViewModel
     {
-        public AllSoftwaresViewModel() 
+        public AllSoftwaresViewModel()
         {
             base.DisplayName = "Softwares";
         }
     }
+    #endregion
+    #region Helpers
+
+    #endregion
+
 }

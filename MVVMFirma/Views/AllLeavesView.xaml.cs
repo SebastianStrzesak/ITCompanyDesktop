@@ -18,7 +18,7 @@ namespace MVVMFirma.Views
     /// <summary>
     /// Interaction logic for AllLeavesView.xaml
     /// </summary>
-    public partial class AllLeavesView : UserControl
+    public partial class AllLeavesView : AllViewBase
     {
         public AllLeavesView()
         {

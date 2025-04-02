@@ -18,7 +18,7 @@ namespace MVVMFirma.Views
     /// <summary>
     /// Interaction logic for AllTimesheetsView.xaml
     /// </summary>
-    public partial class AllTimesheetsView : UserControl
+    public partial class AllTimesheetsView : AllViewBase
     {
         public AllTimesheetsView()
         {

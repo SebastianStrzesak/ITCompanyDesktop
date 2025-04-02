@@ -18,7 +18,7 @@ namespace MVVMFirma.Views
     /// <summary>
     /// Interaction logic for AllProjectBudgetsViev.xaml
     /// </summary>
-    public partial class AllProjectBudgetsViev : UserControl
+    public partial class AllProjectBudgetsViev : AllViewBase
     {
         public AllProjectBudgetsViev()
         {
